@@ -1,0 +1,21 @@
+{
+  "name": "wilson-wordle-solver",
+  "version": "0.1.0",
+  "description": "A terminal wordle solver",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Christopher Wilson",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "node-fetch": "^3.2.0",
+    "prompt": "^1.2.2",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.18",
+    "@types/prompt": "^1.1.2"
+  }
+}

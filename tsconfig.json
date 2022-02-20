@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "outDir": "lib",
+    "removeComments": true,
+    "strictNullChecks": false,
+    "target": "ES2020",
+    "sourceMap": true,
+    "lib": ["ES2021"],
+    "declaration": true,
+    "moduleResolution": "node",
+    "typeRoots": [ "./types", "./node_modules/@types"]
+  },
+  "include": ["*.ts"],
+  "exclude": ["node_modules", "types"]
+}
